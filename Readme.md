@@ -18,7 +18,6 @@ Read me
 
 - **dev/**: Development directory
   - **changelog.md**: Changelog file to track updates to the database
-  - **etl_pipeline.txt** log txt file with log info about the ETL run
   - **cademycode.db**: Original database containing raw data from 3 tables (`cademycode_students`, `cademycode_courses`, `cademycode_student_jobs`)
   - **cademycode_ds.db**: Cleansed database (created during the update process)
       - contains  table: `cademycode_aggregated`
@@ -29,7 +28,7 @@ Read me
   - **cademycode_ds.csv**: Aggregated data in CSV format for production use
 
 - **writeup/**:
-  - **subscriber_cancellations.ipynb**: Jupyter Notebook containing the discovery phase of this project: loading, inspecting, transforming.
+  - **WriteUp.ipynb**: Jupyter Notebook containing the discovery phase of this project: loading, inspecting, transforming.
     
 - ##  Python Script
 
