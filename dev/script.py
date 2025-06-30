@@ -1,4 +1,4 @@
-# This is a sample Python script.
+
 import unittest
 import sys
 import pandas as pd
@@ -13,7 +13,7 @@ import os
 base_dir = os.path.dirname(os.path.abspath(__file__))
 changelog_path = os.path.join(base_dir, "changelog.md")
 
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
 def setup_logging():
     logging.basicConfig(
         level=logging.INFO,
@@ -157,8 +157,7 @@ def main():
             prod_con.close()
             logger.info("Closed production DB connection.")
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     main()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
